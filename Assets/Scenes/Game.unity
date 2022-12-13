@@ -1207,6 +1207,7 @@ GameObject:
   - component: {fileID: 1523047229}
   - component: {fileID: 1523047228}
   - component: {fileID: 1523047227}
+  - component: {fileID: 1523047230}
   m_Layer: 0
   m_Name: UnityNetworkServer
   m_TagString: Untagged
@@ -1228,7 +1229,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   syncMode: 0
   syncInterval: 0.1
-  configuration: {fileID: 1995558416}
+  configuration: {fileID: 0}
   MaxConnections: 100
   Port: 7777
   _networkManager: {fileID: 653613744}
@@ -1264,6 +1265,33 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1523047230
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1523047226}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26b716c41e9b56b4baafaf13a523ba2e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  <IsNested>k__BackingField: 0
+  <ComponentIndex>k__BackingField: 0
+  _networkBehaviours: []
+  <ParentNetworkObject>k__BackingField: {fileID: 0}
+  <ChildNetworkObjects>k__BackingField: []
+  _isNetworked: 1
+  _isGlobal: 0
+  _defaultDespawnType: 0
+  NetworkObserver: {fileID: 0}
+  <PrefabId>k__BackingField: -1
+  _scenePathHash: 774665742
+  <SceneId>k__BackingField: 3327164030555567149
+  <AssetPathHash>k__BackingField: 0
+  _sceneNetworkObjects:
+  - {fileID: 1523047230}
 --- !u!1 &1594259099
 GameObject:
   m_ObjectHideFlags: 0

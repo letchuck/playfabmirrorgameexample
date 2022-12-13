@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ce108cc4098ac04ba9297957279127f, type: 3}
+  m_Name: DefaultChatChannelData
+  m_EditorClassIdentifier: 
+  ChannelData:
+  - Channel: 1
+    Icon: {fileID: 21300000, guid: 806ecf1cfac69604485ce02890f610fb, type: 3}
+    Color: {r: 1, g: 1, b: 1, a: 1}
+    ChannelHint: /s
+    Chattable: 1
+  - Channel: 2
+    Icon: {fileID: 21300000, guid: 2967228cb302fb94aa3f4c907078395f, type: 3}
+    Color: {r: 1, g: 0.33333334, b: 0.33333334, a: 1}
+    ChannelHint: /z
+    Chattable: 1
+  - Channel: 4
+    Icon: {fileID: 21300000, guid: c266a6004e38de748bc413abba7f4315, type: 3}
+    Color: {r: 1, g: 0.33333334, b: 1, a: 1}
+    ChannelHint: /p
+    Chattable: 1
+  - Channel: 8
+    Icon: {fileID: 21300000, guid: fd161853368d51d4b83d5725ae034c7a, type: 3}
+    Color: {r: 0.33333334, g: 1, b: 0.33333334, a: 1}
+    ChannelHint: /g
+    Chattable: 1
+  - Channel: 16
+    Icon: {fileID: 21300000, guid: 7e983d706eec7e2439f4278ab19178c3, type: 3}
+    Color: {r: 1, g: 0.6666667, b: 0, a: 1}
+    ChannelHint: /r
+    Chattable: 1
+  - Channel: 32
+    Icon: {fileID: 21300000, guid: 9ee9a41694863fe45a5aae80e465c444, type: 3}
+    Color: {r: 1, g: 0, b: 1, a: 1}
+    ChannelHint: /w
+    Chattable: 1
+  - Channel: 64
+    Icon: {fileID: 0}
+    Color: {r: 1, g: 1, b: 0.33333334, a: 1}
+    ChannelHint: 
+    Chattable: 0
